@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home&kitchen</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://kit.fontawesome.com/0389a5ff73.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="./style/home&kitchen.css">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <div class="homekitchennav">
+    <div class="navbar0">
+        <div class="navbar1">
+            <div class="navbar1sub1">
+                <img src="https://niyara.co.in/themes/at_oreo/assets/img/modules/appagebuilder/images/meesho-logo.png">
+                   <div id="icon">
+                <i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Try Saree,Kurti or Search By Product Code"></div>
+            </div>
+            <div class="navbar1sub2">
+                <button style="font-size: 15px;height:35px;margin-top:10px;border: none; cursor: pointer;"><i class="fa-solid fa-mobile-screen"></i>Download App</button>
+                <div id="icon2"></div>
+                <a href="./supplier.html" style="text-decoration: none;color: black;"><p style="font-size: 19px; cursor: pointer;margin-top: 10px;">Become a Supplier</p></a> 
+                <div id="icon2"></div>
+                <div style=" cursor: pointer;">
+                  <a href="login.html"style="color: black;">
+                 <i class="fa-solid fa-user"></i>
+                 <p style="font-size: 19px;margin-top:5px;">Profile</p>
+                </a>
+                </div>
+                <div  style=" cursor: pointer;">
+                  <a href="./cartpage.html" style="color: black;">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <p style="font-size: 19px;margin-top:5px">Cart</p>
+                </a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="navbar2" style="padding-top:8px;">
+          <a href="./womenethnic.html" style="color: black;text-decoration: none;"><p>Women Ethnic</p></a>
+          <a href="./womenwestern.html" style="color: black;text-decoration: none;"><p>Women Western</p></a>
+          <a href="./men.html" style="color: black;text-decoration: none;"><p>Men</p></a>
+          <a href="#" style="color: black;text-decoration: none;"><p>Kids</p></a>
+          <a href="./home&kitchen.html" style="color: black;text-decoration: none;"><p>Home & Kitchen</p></a>
+          <a href="./beauty&health.html" style="color: black;text-decoration: none;"><p>Beauty & Health</p></a>
+          <a href="./jewellery&accessories.html" style="color: black;text-decoration: none;"><p>Jewellery & Accessories</p></a>
+          <a href="./bags&footwear.html" style="color: black;text-decoration: none;"><p>Bags & Footwear</p></a>
+          <a href="#" style="color: black;text-decoration: none;"><p>Electronics</p></a>
+        </div>
+    </div>
+</div>
+
+
+<div id="homekitchen">
+</div>
+
+
+<div class="accordion" id="homekitchenaccordion">
+  <h1>Products For You</h1>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        Sort by :Relevance
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <div id="btn">
+          <button id="hl" onclick="high()">Price (High to Low)</button>
+          <button id="lh" onclick="low()">Price (Low to High)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="margin-left:5%;">
+    <p><b>FILTERS</b></p>
+    <p>1000+ Products</p>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Category
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <input type="checkbox">
+        <label for="Analog Watches">Analog Watches</label><br>
+        <input type="checkbox">
+        <label for="Anklets & Toe Rings">Anklets & Toe Rings</label><br>
+        <input type="checkbox">
+        <label for="Appliance Covers">Appliance Covers</label><br>
+        <input type="checkbox">
+        <label for="Artificial Plant and Flower">Artificial Plant and Flower</label><br>
+        <input type="checkbox">
+        <label for="Ayurvedic">Ayurvedic</label><br>
+        <input type="checkbox">
+        <label for="Ayurvedic Products">Ayurvedic Products</label><br>
+        <input type="checkbox">
+        <label for="Bags & Backpacks">Bags & Backpacks</label><br>
+        <input type="checkbox">
+        <label for="Bangles & Bracelets">Bangles & Bracelets</label><br>
+        <input type="checkbox">
+        <label for="Bathing Soaps">Bathing Soaps</label><br>
+        <input type="checkbox">
+        <label for="Bedsheets">Bedsheets</label><br>
+        <input type="checkbox">
+        <label for="Bike Covers">Bike Covers</label><br>
+        <input type="checkbox">
+        <label for="Blouses">Blouses</label><br>
+        <button style="color:rgb(244, 51, 151);border: 1px solid rgb(244, 51, 151);">View More</button>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Gender
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <button style="gap: 10px;border-radius: 15px;">Boys</button>
+        <button style="gap: 10px;border-radius: 15px;">Girls</button>
+        <button style="gap: 10px;border-radius: 15px;">Men</button>
+         <button style="gap: 10px;border-radius: 15px;">Women</button>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Fabric
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <input type="checkbox">
+        <label for="Analog Watches">Acrylic</label><br>
+        <input type="checkbox">
+        <label for="Anklets & Toe Rings">Acrylic</label><br>
+        <input type="checkbox">
+        <label for="Appliance Covers">Art Silk</label><br>
+        <input type="checkbox">
+        <label for="Artificial Plant and Flower">Bamboo</label><br>
+        <input type="checkbox">
+        <label for="Ayurvedic">Banarasi Silk</label><br>
+        <input type="checkbox">
+        <label for="Ayurvedic Products">Chambray</label><br>
+        <input type="checkbox">
+        <label for="Bags & Backpacks">Chambray</label><br>
+        <input type="checkbox">
+        <label for="Bangles & Bracelets">Chanderi Cotton</label><br>
+        <input type="checkbox">
+        <label for="Bathing Soaps">Chanderi Silk</label><br>
+        <input type="checkbox">
+        <label for="Bedsheets">Chenilli</label><br>
+        <input type="checkbox">
+        <label for="Bike Covers">Chiffon</label><br>
+        <input type="checkbox">
+        <label for="Blouses">Combed Cotton</label><br>
+        <button style="color:rgb(244, 51, 151);border: 1px solid rgb(244, 51, 151);">Show More</button>
+      </div>
+      
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        Oxfords
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <input type="checkbox">
+        <label for="Heels">Heels</label><br>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        dail_shape
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse " aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <input type="checkbox">
+        <label for="Sound">Sound</label><br>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        Color
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse " aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <input type="checkbox">
+        <label for="Sound">Gray</label><br>
+        <input type="checkbox">
+        <label for="Sound">Gold</label><br>
+        <input type="checkbox">
+        <label for="Sound">Blue</label><br>
+        <input type="checkbox">
+        <label for="Sound">Black</label><br>
+        <input type="checkbox">
+        <label for="Sound">Coral</label><br>
+        <input type="checkbox">
+        <label for="Sound">Khakhi</label><br>
+        <button style="color:rgb(244, 51, 151);border: 1px solid rgb(244, 51, 151);">Show More</button>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingEight">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+       Price
+      </button>
+    </h2>
+    <div id="collapseEight" class="accordion-collapse collapse " aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <button style="border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">Under ₹ 149</button><br>
+         <br>
+         <button style="border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">Under ₹ 199</button><br>
+         <br>
+         <button style="border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">Under ₹ 249</button><br>
+         <br>
+         <button style="border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">Under ₹ 299</button><br>
+         <br>
+         <button style="border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">Under ₹ 349</button><br>
+         <br>
+         <button style="border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">Under ₹ 399</button><br>
+         <br>
+         <button style="gap:10px;border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">Under ₹ 449</button><br>
+         <br>
+         <button style="gap:10px;border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">Under ₹ 499</button> <button style="border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">Under ₹ 99</button><br>
+         <br>
+         <button style="border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">₹0- ₹99</button>  <button style="border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">₹100- ₹149</button><br>
+         <br>
+         <button style="border-radius: 15px;background-color: rgb(241, 234, 234);border: none;">₹150- ₹199</button>
+         <button style="color:rgb(244, 51, 151);border: 1px solid rgb(244, 51, 151);">Show More</button>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingNine">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+       Meesho Mall
+      </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse collapse " aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <input type="checkbox">
+        <label for="Mall Brands">Mall Brands</label><br>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+        Occassion
+      </button>
+    </h2>
+    <div id="collapseTen" class="accordion-collapse collapse " aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <input type="checkbox">
+        <label for="Bridal">Bridal</label><br>
+        <input type="checkbox">
+        <label for="Festive">Festive</label><br>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
+<script src="./script/home&kitchen.js"></script>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productpage</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://kit.fontawesome.com/0389a5ff73.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./style/product.css">
+    <link rel="stylesheet" href="./style/index.css">
+
+</head>
+<body>
+    <div class="productnav">
+    <div class="navbar0">
+        <div class="navbar1">
+            <div class="navbar1sub1">
+                <img src="https://niyara.co.in/themes/at_oreo/assets/img/modules/appagebuilder/images/meesho-logo.png">
+                   <div id="icon">
+                <i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Try Saree,Kurti or Search By Product Code"></div>
+            </div>
+            <div class="navbar1sub2">
+                <button style="font-size: 15px;height:35px;margin-top:10px;border: none; cursor: pointer;"><i class="fa-solid fa-mobile-screen"></i>Download App</button>
+                <div id="icon2"></div>
+                <a href="./supplier.html" style="text-decoration: none;color: black;"><p style="font-size: 19px; cursor: pointer;margin-top: 10px;">Become a Supplier</p></a> 
+                <div id="icon2"></div>
+                <div style=" cursor: pointer;">
+                  <a href="login.html"style="color: black;">
+                 <i class="fa-solid fa-user"></i>
+                 <p style="font-size: 19px;margin-top:5px;">Profile</p>
+                </a>
+                </div>
+                 <div  style=" cursor: pointer;">
+                   <a href="./cartpage.html" style="color: black;">
+                   <i class="fa-solid fa-bag-shopping"></i>
+                   <p style="font-size: 19px;margin-top:5px;text-decoration:none;">Cart</p>
+                 </a>
+                 </div>
+            </div>
+        </div>
+    
+        <div class="navbar2" style="padding-top:8px;">
+          <a href="./womenethnic.html" style="color: black;text-decoration: none;"><p>Women Ethnic</p></a>
+          <a href="./womenwestern.html" style="color: black;text-decoration: none;"><p>Women Western</p></a>
+          <a href="./men.html" style="color: black;text-decoration: none;"><p>Men</p></a>
+          <a href="#" style="color: black;text-decoration: none;"><p>Kids</p></a>
+          <a href="./home&kitchen.html" style="color: black;text-decoration: none;"><p>Home & Kitchen</p></a>
+          <a href="./beauty&health.html" style="color: black;text-decoration: none;"><p>Beauty & Health</p></a>
+          <a href="./jewellery&accessories.html" style="color: black;text-decoration: none;"><p>Jewellery & Accessories</p></a>
+          <a href="./bags&footwear.html" style="color: black;text-decoration: none;"><p>Bags & Footwear</p></a>
+          <a href="#" style="color: black;text-decoration: none;"><p>Electronics</p></a>
+        </div>
+    </div>
+</div>
+
+    <div id="product"></div>
+
+
+    <div class="detail"> 
+        <div class="size">
+          <h4>Select Size</h4>
+            <button>XS</button>
+            <button>S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+            <button>XXL</button>
+            <button>XXXL</button><br>
+            <button>4XL</button>
+        </div>
+        <div class="siz">
+        <h4>Product Details</h4>
+          <p>Sizes:</p>
+          <p>XS (Bust Size : 34 in)</p>
+          <p>S (Bust Size : 36 in)</p>
+          <p>M (Bust Size : 38 in)</p>
+          <p>L (Bust Size : 40 in)</p>
+          <p>XL (Bust Size : 42 in)</p>
+          <p>XXL (Bust Size : 44 in)</p>
+          <p>XXXL, 4XL</p>
+          <p>Country of Origin : India</p>
+          <p>More Information:</p>
+        </div>
+
+        <div class="sold">
+          <h5>Sold By</h5>
+          <div id="sold1"> 
+            <i class="fa-solid fa-shop"></i>
+             <h5>HANUAMN CREATION</h5>
+             <button>View Shop</button>
+          </div>
+          <div id="sold2">
+               <div>
+                <i class="fa-solid fa-star">4.0</i>
+                <p style="color: gray;">11,955 Ratings</p>
+               </div>
+               <div>
+                <p>203</p>
+                <p style="margin-top:-20px;color: gray;">Followers</p>
+               </div>
+               <div>
+                <p>29</p>
+                <p style="margin-top:-20px;color: gray;">Products</p>
+               </div>
+          </div>
+        </div>
+
+
+      <div class="deldate">
+          <h4>Check Delivery Date</h4>
+          <input type="text" id="pincode" placeholder="Enter Delivery Pincode">
+          <div class="deldate2">
+            <i class="fa-solid fa-truck"></i>
+            <p>Enter Pincode for Estimated Delivery Date</p>
+          </div>
+          <div class="deldate2">
+            <i class="fa-regular fa-calendar"></i>
+            <p>Dispatch in 1 day</p>
+          </div>
+        </div>
+
+
+        <div class="review">
+          <h4>Product Ratings & Reviews</h4>
+          <div class="review2">
+          <div class="review3">
+           <h1>4.0<i class="fa-solid fa-star"></i></h1> 
+           <p>6557  Ratings,<br>
+            608  Reviews
+          </p>
+          </div>
+          <div class="review4">
+              <div class="review5">
+                <p>Excellent</p>
+                <div class="rev1"></div>
+                <p style="color: gray;margin-left: 80px;">3666</p>
+              </div>
+              <div  class="review5">
+                <p>Very Good</p>
+                <div class="rev2"></div>
+                <p style="color: gray;margin-left:180px;">1007</p>
+              </div>
+              <div  class="review5">
+                <p>Good</p>
+                <div class="rev3"></div>
+                <p style="color: gray;margin-left:200px;">731</p>
+              </div>
+              <div  class="review5">
+                <p>Average</p>
+                <div class="rev4"></div>
+                <p style="color: gray;margin-left:220px;">410</p>
+              </div>
+              <div  class="review5">
+                <p>Poor</p>
+                <div class="rev5"></div>
+                <p style="color: gray;margin-left:210px;">743</p>
+              </div>
+          </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="alsoview">
+        <h3>People also viewed</h3>
+        <div class="viewpro">
+         <div class="viewimg">
+            <img src="https://images.meesho.com/images/products/103713364/0ioi6_400.webp">
+            <p>Classy Graceful Women</p>
+            <h3>₹197</h3>
+            <h5>Free Delivery</h5>
+            <h4>3.8<i class="fa-solid fa-star"></i></h4>
+            <h6>77080 Reviews</h6>
+         </div>
+         <div class="viewimg">
+          <img src="https://images.meesho.com/images/products/232380429/rc2rd_400.webp">
+          <p>Hair Care Combo</p>
+          <h3>₹206</h3>
+          <h5>Free Delivery</h5>
+          <h4>4.6<i class="fa-solid fa-star"></i></h4>
+          <h6>32 Reviews</h6>
+       </div>
+       <div class="viewimg">
+        <img src="https://images.meesho.com/images/products/3145241/1_400.webp">
+        <p>Ethnic Fancy Silk Cotto</p>
+        <h3>₹223</h3>
+        <h5>Free Delivery</h5>
+        <h4>4.1<i class="fa-solid fa-star"></i></h4>
+        <h6>131578 Reviews</h6>
+     </div>
+     <div class="viewimg">
+      <img src="https://images.meesho.com/images/products/140598388/ailwc_400.webp">
+      <p>Trendy Ravishing Men T</p>
+      <h3>₹189</h3>
+      <h5>Free Delivery</h5>
+      <h4>3.9<i class="fa-solid fa-star"></i></h4>
+      <h6>15290 Reviews</h6>
+   </div>
+   <div class="viewimg">
+    <img src="https://images.meesho.com/images/products/151074458/1k2zg_400.webp">
+    <p>Trendy Ravishing Wom</p>
+    <h3>₹273</h3>
+    <h5>Free Delivery</h5>
+    <h4>3.7<i class="fa-solid fa-star"></i></h4>
+    <h6>8708 Reviews</h6>
+ </div>
+ <div class="viewimg">
+  <img src="https://images.meesho.com/images/products/12731365/ezlgq_400.webp">
+  <p>Trendy Home & Kitche</p>
+  <h3>₹123</h3>
+  <h5>Free Delivery</h5>
+  <h4>4.0<i class="fa-solid fa-star"></i></h4>
+  <h6>105657 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/17898117/fbdc9_400.webp">
+  <p>Classic Glamorous Wom</p>
+  <h3>₹279</h3>
+  <h5>Free Delivery</h5>
+  <h4>3.8<i class="fa-solid fa-star"></i></h4>
+  <h6>81380 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/162170012/trtzs_400.webp">
+  <p>Soft Silk Sarees</p>
+  <h3>₹385</h3>
+  <h5>Free Delivery</h5>
+  <h4>4.0<i class="fa-solid fa-star"></i></h4>
+  <h6>6557 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/22486015/1a522_400.webp">
+  <p>Cutiepie Elegant Kids B</p>
+  <h3>₹341</h3>
+  <h5>Free Delivery</h5>
+  <h4>3.9<i class="fa-solid fa-star"></i></h4>
+  <h6>48945 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/148828496/vfcip_400.webp">
+  <p>Urbane Elegant Men S</p>
+  <h3>₹272</h3>
+  <h5>Free Delivery</h5>
+  <h4>3.7<i class="fa-solid fa-star"></i></h4>
+  <h6>10661 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/71802374/yxrzn_400.webp">
+  <p>Festive special: Aakars</p>
+  <h3>₹312</h3>
+  <h5>Free Delivery</h5>
+  <h4>3.8<i class="fa-solid fa-star"></i></h4>
+  <h6>7736 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/1853975/4tuyd_400.webp">
+  <p>Georgette Printed Sare</p>
+  <h3>₹308</h3>
+  <h5>Free Delivery</h5>
+  <h4>3.8<i class="fa-solid fa-star"></i></h4>
+  <h6>23973 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/31536766/ltqhe_400.webp">
+  <p>Red Mini Matte waterp</p>
+  <h3>₹126</h3>
+  <h5>Free Delivery</h5>
+  <h4>3.8<i class="fa-solid fa-star"></i></h4>
+  <h6>18799 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/70170877/syve0_400.webp">
+  <p>Pretty Comfy Boys Tsh</p>
+  <h3>₹162</h3>
+  <h5>Free Delivery</h5>
+  <h4>3.8<i class="fa-solid fa-star"></i></h4>
+  <h6>11330 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/6282524/0a584_400.webp">
+  <p>Doobidoo Baby Pants</p>
+  <h3>₹517</h3>
+  <h5>Free Delivery</h5>
+  <h4>4.1<i class="fa-solid fa-star"></i></h4>
+  <h6>76 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/114419754/yixfd_400.webp">
+  <p>Trendy Sensational Me</p>
+  <h3>₹263</h3>
+  <h5>Free Delivery</h5>
+  <h4>4.0<i class="fa-solid fa-star"></i></h4>
+  <h6>21904 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/120186165/v1pfw_400.webp">
+  <p>Aakarsha Refined Kurtis</p>
+  <h3>₹283</h3>
+  <h5>Free Delivery</h5>
+  <h4>4.8<i class="fa-solid fa-star"></i></h4>
+  <h6>10119 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/40472193/tctk8_400.webp">
+  <p>Stylo Kids Bags & Backp</p>
+  <h3>₹133</h3>
+  <h5>Free Delivery</h5>
+  <h4>3.8<i class="fa-solid fa-star"></i></h4>
+  <h6>24643 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/51982067/juuuw_400.webp">
+  <p>Feminine Fancy Jewell</p>
+  <h3>₹320</h3>
+  <h5>Free Delivery</h5>
+  <h4>3.7<i class="fa-solid fa-star"></i></h4>
+  <h6>17665 Reviews</h6>
+</div>
+<div class="viewimg">
+  <img src="https://images.meesho.com/images/products/51248174/qmnjy_400.webp">
+  <p>Fancy Women Analog </p>
+  <h3>₹154</h3>
+  <h5>Free Delivery</h5>
+  <h4>4.0<i class="fa-solid fa-star"></i></h4>
+  <h6>21938 Reviews</h6>
+</div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <div class="foot1">
+            <h1>Shop Non-Stop on Meesho</h1>
+            <p>Trusted by more than 1 Crore Indians<br>
+              Cash on Delivery | Free Delivery</p>
+              <div class="foot1sub">
+                <img src="https://images.meesho.com/images/pow/playstore-icon-big.png">
+                <img src="https://images.meesho.com/images/pow/appstore-icon-big.png">
+              </div>
+        </div>
+
+        <div class="foot2">
+            <div class="foot2sub">
+               <p>Careers</p>
+               <p>Become a supplier</p>
+               <p>Hall of Fame</p>
+            </div>
+            <div class="foot2sub">
+              <p>Legal and Policies</p>
+              <p>Meesho Tech Blog</p>
+              <p>Notices and Returns</p>
+           </div>
+        </div>
+
+        <div class="foot3">
+           <h4>Reach out to us</h4>
+           <div class="foot3sub">
+              <img src="https://images.meesho.com/images/pow/facebook.png">
+              <img src="https://images.meesho.com/images/pow/instagram.png">
+              <img src="https://images.meesho.com/images/pow/youtube.png">
+              <img src="https://images.meesho.com/images/pow/linkedin.png">
+              <img src="https://images.meesho.com/images/pow/twitter.png">
+           </div>
+        </div>
+
+        <div class="foot4">
+             <h4>Contact Us</h4>
+             <p>Fashnear Technologies Private<br>
+               Limited,<br>
+              CIN: U74900KA2015PTC082263<br>
+              06-105-B, 06-102, (138 Wu)<br>
+               Vaishnavi Signature, No. 78/9,<br>
+                Outer Ring Road, Bellandur,<br>
+               Varthur Hobli, Bengaluru-560103,<br>
+                Karnataka, India<br>
+              E-mail address:<br>
+               query@meesho.com<br>
+              © 2015-2022 Meesho.com</p>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="./script/product.js"></script>

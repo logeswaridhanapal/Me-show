@@ -1,0 +1,74 @@
+.bagsfootwearnav{
+    position: fixed;
+    background-color: aliceblue;
+    margin-top:2px;
+    width:1350px;
+    z-index: 2;
+}
+
+#bagsfootwear{
+width: 985px;
+height:100%;
+/* border: 1px solid black; */
+margin-left: 360px;
+display: flex;
+flex-wrap: wrap;
+gap: 5px;
+padding-left: 5px;
+margin-top: 200px;
+}
+#cards{
+/* border: 1px solid blue; */
+width: 240px;
+text-align: center;
+cursor: pointer;
+height: 390px;
+}
+#bagsfootwear :hover{
+background-color: lightgray;
+}
+#cards img{
+width: 238px;
+height: 250px;
+padding:5px;
+}
+#cards h4{
+font-size:25px;
+margin-top:-15px;
+color: black;
+}
+#cards p{
+font-size: 20px;
+color: gray;
+margin-top: -10px;
+}
+#rat{
+width: 50px;
+height: 30px;
+background-color: green;
+padding-left:5px;
+border-radius:15px;
+color: aliceblue;
+font-size: 20px;
+margin-left:10%;
+margin-top: -39px;
+}
+#bagsfootwearaccordion{
+width:350px;
+height: 100%;
+/* border: 1px solid black; */
+margin-top:-88%;
+}
+#lh {
+    width: 150px;
+    height: 40px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+#hl {
+    width: 150px;
+    height: 40px;
+    background-color: skyblue;
+    cursor: pointer;
+}

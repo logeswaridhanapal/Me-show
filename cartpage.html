@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cartpage</title>
+  
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://kit.fontawesome.com/0389a5ff73.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/cartpage.css">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <div class="cartnav">
+    <div class="navbar0">
+        <div class="navbar1">
+            <div class="navbar1sub1">
+                <img src="https://niyara.co.in/themes/at_oreo/assets/img/modules/appagebuilder/images/meesho-logo.png">
+                   <div id="icon">
+                <i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Try Saree,Kurti or Search By Product Code"></div>
+            </div>
+            <div class="navbar1sub2">
+                <button style="font-size: 15px;height:35px;margin-top:10px;border: none; cursor: pointer;"><i class="fa-solid fa-mobile-screen"></i>Download App</button>
+                <div id="icon2"></div>
+                <a href="./supplier.html" style="text-decoration: none;color: black;"><p style="font-size: 19px; cursor: pointer;margin-top: 10px;">Become a Supplier</p></a> 
+                <div id="icon2"></div>
+                <div style=" cursor: pointer;">
+                  <a href="login.html"style="color: black;">
+                 <i class="fa-solid fa-user"></i>
+                 <p style="font-size: 19px;margin-top:5px;">Profile</p>
+                </a>
+                </div>
+                <div  style=" cursor: pointer;">
+                  <a href="./cartpage.html" style="color: black;">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <p style="font-size: 19px;margin-top:5px;text-decoration:none;">Cart</p>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="cartinfo">
+      <h1>Item Added To Cart Successfully</h1>
+</div>
+
+
+<div id="cart"></div>
+
+
+
+<div class="sold">
+  <h5>Sold By</h5>
+  <div id="sold1"> 
+    <i class="fa-solid fa-shop"></i>
+     <h5>HANUAMN CREATION</h5>
+     <button>View Shop</button>
+  </div>
+  <div id="sold2">
+       <div>
+        <i class="fa-solid fa-star">4.0</i>
+        <p style="color: gray;">11,955 Ratings</p>
+       </div>
+       <div>
+        <p>203</p>
+        <p style="margin-top:-20px;color: gray;">Followers</p>
+       </div>
+       <div>
+        <p>29</p>
+        <p style="margin-top:-20px;color: gray;">Products</p>
+       </div>
+  </div>
+</div>
+
+
+<div class="deldate">
+  <h4>Check Delivery Date</h4>
+  <input type="text" id="pincode" placeholder="Enter Delivery Pincode">
+  <div class="deldate2">
+    <i class="fa-solid fa-truck"></i>
+    <p>Enter Pincode for Estimated Delivery Date</p>
+  </div>
+  <div class="deldate2">
+    <i class="fa-regular fa-calendar"></i>
+    <p>Dispatch in 1 day</p>
+  </div>
+</div>
+
+
+<div class="review">
+  <h4>Product Ratings & Reviews</h4>
+  <div class="review2">
+  <div class="review3">
+   <h1>4.0<i class="fa-solid fa-star"></i></h1> 
+   <p>6557  Ratings,<br>
+    608  Reviews
+  </p>
+  </div>
+  <div class="review4">
+      <div class="review5">
+        <p>Excellent</p>
+        <div class="rev1"></div>
+        <p style="color: gray;margin-left: 80px;">3666</p>
+      </div>
+      <div  class="review5">
+        <p>Very Good</p>
+        <div class="rev2"></div>
+        <p style="color: gray;margin-left:180px;">1007</p>
+      </div>
+      <div  class="review5">
+        <p>Good</p>
+        <div class="rev3"></div>
+        <p style="color: gray;margin-left:200px;">731</p>
+      </div>
+      <div  class="review5">
+        <p>Average</p>
+        <div class="rev4"></div>
+        <p style="color: gray;margin-left:220px;">410</p>
+      </div>
+      <div  class="review5">
+        <p>Poor</p>
+        <div class="rev5"></div>
+        <p style="color: gray;margin-left:210px;">743</p>
+      </div>
+  </div>
+  </div>
+</div>
+
+<div class="cartdetail1">
+       <div class="cartdetail1sub1"> 
+            <h1>Deliver products across India</h1>
+            <p>Meesho ensures quick and hassle-free delivery of all your<br> products across India</p>
+       </div>
+       <div class="cartdetail1sub2"> 
+          <div>
+            <img src="https://supplier.meesho.com/images/icon-19.svg">
+            <p>Lowest Shipping<br> Charges</p>
+          </div>
+          <div>
+            <img src="https://supplier.meesho.com/images/icon-20.svg">
+            <p>28000+ Pincode<br> Served</p>
+          </div>
+          <div>
+            <img src="https://supplier.meesho.com/images/icon-15.svg">
+            <p>0% Commission</p>
+          </div>
+       </div>
+</div> 
+
+<div class="cartdetail2">
+       <h1>Meesho Shipping & Delivery Charges</h1>
+       <p>Meesho offers the lowest shipping cost across all online platforms in India. We have tied up with multiple Logistics<br>
+         Partners who pick up the product from your location and deliver it straight to the customer.
+          <br>
+          <br>
+        With such low delivery charges, you can receive orders from all over India and focus more on selling your products<br>
+        online than handling the stress of shipping and logistics all by yourself.
+         </p>
+</div>
+
+
+<div class="cartdetail3">
+  <h1>Shipping Timeline</h1>
+  <p>The orders must be shipped within 2-3 days from the date of receiving the order within the agreed time provided<br>
+     by you (also known as Service Level Agreement or SLA). You can check the status of your order and the days left for<br>
+      dispatch on the Meesho Supplier Panel.</p>
+</div>
+
+
+<div class="cartdetail4">
+  <h1>Meesho Return Policy</h1>
+  <p>Customers can return the product within 7 days from the date of delivery and the shipments which weren’t<br>
+     delivered to the customer get converted to an RTO (Return to Origin).
+     <br>
+     <br>
+    Meesho gives sellers all the information they need to manage their customer returns or RTOs (Return to Origin)<br>
+     along with details on compensation and charges levied for each return/RTO. We have best-in-class tools to help<br>
+      our sellers track and manage their returns, get order or product level data as well as detailed shipping tracking,<br>
+       payment and order history.</p>
+</div>
+
+<div class="cartdetail5">
+     <h1>Return Shipping Fee</h1>
+     <div class="cartdetail5sub1">
+         <ul>
+          <li>If a customer returns a product, then the seller is<br>
+             charged a return shipping fee based on the weight<br>
+              of the shipment.</li>
+          <li>If an order is not delivered to a customer and gets<br>
+             converted to an RTO (Return to Origin), the seller<br>
+              will not be charged any additional fee for shipping.</li>
+          <li>All return & RTO related charges can be tracked &<br>
+             managed using different tools that are provided to<br>
+              Meesho sellers.
+          </li>
+          <li>Please note that for some exceptional cases, the<br>
+             return shipping fees can be waived off.</li>
+         </ul>
+
+         <img src="https://supplier.meesho.com/images/fact-4-p-500.png">
+     </div>
+    </div>
+
+     <div class="cartdetail6">
+      <h1>Cancellation Policy on Meesho</h1>
+      <h1>No Cancellation Penalty</h1>
+      <div class="cartdetail6sub1">
+          <p>In order to maintain a good customer experience for<br>
+             customers, it is important for you to ensure that the<br>
+              products you have listed on Meesho are in stock and<br>
+               available to ship. However, we understand that there<br>
+                could be delays that are out of your control leading to<br>
+                 late dispatch or order cancellation. In that case,<br>
+                  Meesho will not charge any penalty to you so you can<br>
+                   continue to sell online without any tension. </p>
+ 
+          <img src="https://supplier.meesho.com/images/fact-3-p-500.png">
+      </div>
+
+</div>
+
+
+<div class="cartdetail7">
+        <div class="cartdetail7sub1">
+             <img src="https://supplier.meesho.com/images/footer-logo.svg">
+             <p>Sell your products to crores of customers on<br> Meesho at 0% commission</p>
+             <button>Start Selling</button>
+        </div>
+
+        <div class="cartdetail7sub2">
+          <h5>Sell on Meesho</h5>
+          <p>Sell Online</p>
+          <p>Pricing & Commission</p>
+          <p> How it works</p>
+          <p>Shipping & Returns</p>
+          <p>Grow Your Business</p>
+          <p>Learning Hub</p>
+          <p>Meesho Ads</p>
+          <p> Shop Online on Meesho</p>
+        </div>
+
+
+        <div class="cartdetail7sub3">
+         <h5>Contact Us</h5>
+         <p>sell@meesho.com</p>
+
+         <i class="fa-brands fa-square-instagram"></i>
+         <i class="fa-brands fa-square-facebook"></i>
+         <i class="fa-brands fa-square-youtube"></i>
+        </div>
+</div>
+
+<div class="cartdetail8">
+     <p>© 2015-22 Meesho Inc. All Rights Reserved.</p>
+</div>
+</body>
+</html>
+<script src="./script/cartpage.js"></script>

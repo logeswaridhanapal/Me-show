@@ -1,0 +1,30 @@
+body{
+    /* background-color:  #10847E;; */
+    background-image: url("https://img.freepik.com/premium-photo/wood-table-with-blur-clothing-store-background_293060-10490.jpg");
+    background-size: cover;
+}
+.container{
+    border: 1px solid black;
+    width: 250px;
+    height:160px;
+    padding-left: 35px;
+    padding-top:60px;   
+    margin-left: 530px;
+    margin-top: 150px;
+    background-color: rgb(197, 197, 197);
+    opacity: 0.8;
+}
+.container button{
+    width: 120px;
+    height:30px;
+    font-size: 15px;
+    background-color: green;
+    border: none;
+    color: aliceblue;
+}
+#enteredotp{
+    width:200px;
+    height:30px;
+    margin-bottom:20px;
+    font-size: 15px;
+}
